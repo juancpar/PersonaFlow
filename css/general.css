@@ -1,0 +1,67 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html {
+    min-width: 23.44rem;
+}
+
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+header {
+    position: relative;
+}
+
+body,
+footer {
+    position: relative;
+    z-index: -1;
+    right: 0;
+    left: 0;/* 
+    min-width: auto; */
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    font-size: clamp(3rem, 2.571428571428571rem + 2.142857142857143vw, 4.5rem);
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 0.846938775510204rem + 3.2653061224489797vw, 3.5rem);
+}
+
+h3 {
+    font-size: 1.125rem;
+    font-size: clamp(1.125rem, 0.5127551020408163rem + 3.0612244897959187vw, 3rem);
+}
+
+p,
+ul,
+a {
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.673469387755102rem + 1.6326530612244898vw, 2rem);
+    line-height: 1.65;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    font-family: inherit;
+}
