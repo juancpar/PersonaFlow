@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Juan C. Parada">
+    <meta name="description" content="HTML/CSS/JavaScript Practice.">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <meta http-equiv="X-UA Compatible" content="IE-Edge">
+    <title>Journey To Full Stack</title>
+    <link rel="icon" href="assets/favicon-16x16.png.png" type="image/x-icon" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/quiz-form.css">
+
+    <style>
+      #rdio-one.active {
+        background-color: peachpuff;
+      }
+
+      #rdio-two.active {
+        background-color: lightskyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar">
+        <div class="navbar-container">
+          <a class="navbar-brand" href="/">
+            <img class='brand-logo' src="assets/logo-black.svg" alt="Persona Flow Home" title="PersonaFlow Logo Name" width="177" height="56">
+          </a>
+          <button class="navbar-toggle" id="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+          <ul class="navbar-desktop-menu">
+            <li class="navbar-links"><a href="index.html/#story">Start Here</a></li>
+            <li class="navbar-links"><a href="">Explore Elements</a></li>
+            <li class="navbar-links"><a href="">Learn More</a></li>
+            <li class="navbar-links button"><a href="quiz.html">Start Your Adventure</a></li>
+          </ul>
+          <ul class="navbar-mobile" id="mobile-menu">
+            <li class="navbar-links"><a href="index.html/#story">Start Here</a></li>
+            <li class="navbar-links"><a href="">Explore Elements</a></li>
+            <li class="navbar-links"><a href="">Learn More</a></li>
+            <li class="navbar-links"><a href="quiz.html">Start Your Adventure</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- End Header -->
+    <!-- Main -->
+    <main>
+      <form action="input" name="Affinity Quiz" rel="" action="" >
+        <div style="margin: 100px 24px">
+          <h3>
+            As you embark on an adventure, how likely are you to form a group first?
+          </h3>
+          <div class="radio">
+            <div class="radio-contain" style="display: flex; flex-direction: column; align-items: center; row-gap: 24px;">
+              <div class="radio-btn" style="display: flex; align-items: center; column-gap: 118px;">
+                <span id="rdio-one" style="display:block; height: 60px; width: 60px; border: 5px solid lightgray; border-radius: 30px;"></span>
+                <span id="rdio-two" style="display:block; height: 50px; width: 50px; border: 5px solid lightgray; border-radius: 30px;"></span>
+                <span id="rdio-three" style="display:block; height: 40px; width: 40px; border: 5px solid lightgray; border-radius: 30px;"></span>
+                <span id="rdio 4" style="display:block; height: 50px; width: 50px; border: 5px solid lightgray; border-radius: 30px;"></span>
+                <span id="rdio 5" style="display:block; height: 60px; width: 60px; border: 5px solid lightgray; border-radius: 30px;"></span>
+              </div>
+              <div class="radio-text" style="display: flex; justify-content: space-around; align-items: center; column-gap: 40px">
+                <p>Very Likely</p>
+                <p>Likely</p>
+                <p>Not Sure</p>
+                <p>Unlikely</p>
+                <p>Very Unlikely</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </main>
+    <!-- End Main -->
+  </body>
+  <script src="apps.js"></script>
+</html>

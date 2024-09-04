@@ -29,16 +29,16 @@
             <span class="bar"></span>
           </button>
           <ul class="navbar-desktop-menu">
-            <li class="navbar-links"><a href="/">Start Here</a></li>
-            <li class="navbar-links"><a href="/">Explore Elements</a></li>
-            <li class="navbar-links"><a href="/">Learn More</a></li>
-            <li class="navbar-links button"><a href="/">Start Your Adventure</a></li>
+            <li class="navbar-links"><a href="#story">Start Here</a></li>
+            <li class="navbar-links"><a href="">Explore Elements</a></li>
+            <li class="navbar-links"><a href="">Learn More</a></li>
+            <li class="navbar-links button"><a href="quiz.html">Start Your Adventure</a></li>
           </ul>
           <ul class="navbar-mobile" id="mobile-menu">
             <li class="navbar-links"><a href="#story">Start Here</a></li>
             <li class="navbar-links"><a href="">Explore Elements</a></li>
             <li class="navbar-links"><a href="">Learn More</a></li>
-            <li class="navbar-links"><a href="">Start Your Adventure</a></li>
+            <li class="navbar-links"><a href="quiz.html">Start Your Adventure</a></li>
           </ul>
         </div>
       </nav>
@@ -135,14 +135,6 @@
       </div>
     </footer>
     <!-- #page -->
-    <script>
-      const menuToggle = document.querySelector('#menu-toggle');
-      const menu = document.querySelector('#mobile-menu');
-
-      menuToggle.addEventListener('click', function() {
-        menuToggle.classList.toggle('active');
-        menu.classList.toggle('is-active');
-      })
-    </script>
+    <script src="apps.js"></script>
   </body>
 </html>
