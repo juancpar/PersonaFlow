@@ -117,7 +117,7 @@
     }
 
     .earth {
-        background-image: url(/assets/mobile-earth.jpg);
+        background-image: url('/assets/mobile-earth.jpg');
     }
 
     .water {
